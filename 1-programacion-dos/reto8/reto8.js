@@ -10,8 +10,7 @@ const thirdDogImage = 'https://images.dog.ceo/breeds/chihuahua/n02085620_3409.jp
 const thirdDogName = 'Lana';
 
 element.innerHTML=`
-<ul>
-            <li> <img  width="60px" src=${firstDogImage}> <p>${firstDogName}</p> </li>
+<ul> <li> <img  width="60px" src=${firstDogImage}> <p>${firstDogName}</p> </li>
             <li><img  width="60px" src=${secondDogImage}> <p>${secondDogName}</p> </li>
             <li><img width="60px" src=${thirdDogImage} alt=""> <p>${thirdDogName}</p> </li>
         </ul>`;
