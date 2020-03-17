@@ -1,0 +1,2 @@
+2 + 3 + '5' //da exactamente el mismo 235 ya que + lo que hace es concatenar los string y numeros, en este caso porque estan juntos, Pues que JavaScript siempre convierte primero el número a string y posteriormente juntará ambos textos
+'2' + 3 + 5
